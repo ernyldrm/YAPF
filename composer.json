@@ -1,0 +1,20 @@
+{
+    "name": "savaskoc/yapf",
+    "type": "project",
+    "description": "Yet Another PHP Framework",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Savaş KOÇ",
+            "email": "savaskoc11@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "YAPF": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3.2"
+    }
+}
