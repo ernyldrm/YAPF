@@ -1,4 +1,5 @@
 <?php
+
 use YAPF\Entry;
 
 include __DIR__ . DIRECTORY_SEPARATOR .
@@ -12,6 +13,5 @@ include __DIR__ . DIRECTORY_SEPARATOR .
  */
 
 defined('YAPF_APP') or define('YAPF_APP', 'Application');
-defined('YAPF_CORE') or define('YAPF_CORE', __DIR__);
 
 new Entry;
